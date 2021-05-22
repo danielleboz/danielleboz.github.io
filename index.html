@@ -4,12 +4,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>Hello World</h1>
-    </header>
-    
+    <div class="container">
+        <header class="header">
+            <h1 id="header__logo">Danielle Bosworth</h1>
+            <nav class="header__nav">
+                <ul class="header__nav_list">
+                    <li class="header__nav_listItem"><a href="#profile__section">About Me</li></a>
+                    <li class="header__nav_listItem"><a href="#projects__title">Projects</li></a>
+                </ul>
+            </nav>
+        </header>
+        <section class="profile__section"><a id="profile__section"></a>
+            <figure>
+                <img src="images\dbosworth.jpg" alt="Picture of Me" class="profile__section_image">
+            </figure>
+            <article class="profile__section_info">
+                <h2 class="profile__section_heading">About Me</h2>
+                <ul class="profile__section_list">
+                    <li class="profile__section_listItem">Email: daniellekbosworth@gmail.com</li>
+                    <li class="profile__section_listItem">Phone: 614-638-8871</li>
+                    <li class="profile__section_listItem"><a href="https://github.com/danielleboz" target="_blank">Github: danielleboz</li></a>
+                    <li class="profile__section_listItem"><a href="https://www.linkedin.com/in/danielle-bosworth-599b6a2a" target="_blank">LinkedIn: Danielle Bosworth</li></a>
+                    <li class="profile__section_listItem">Skills: HTML; CSS; Java; Photoshop; Creative Problem Solver</li>
+                </ul>
+                <p>I started my career in Human Resources where I honed my written and verbal communication skills as well as gained a deep understanding for professionalism. It was in HR that I realized my love for technology and made a career change into IT where I excelled my tech and customer service skills.  While in IT, I realized that I had an enjoyment for coding and am looking to make another career change into Software Development.</p>
+            </article>            
+        </section>
+        <h2 class="projects__title">Projects</h2><a id="projects__title"></a>
+        <section class="projects__section">
+            <article class="projects__column">
+                <h3 class="projects__column_title">Virtual Pet</h3>
+                <figure class="projects__column_figure">
+                    <a href="https://github.com/2021-Spring-Part-Time/virtual-pet-danielleboz" target="_blank"><img src="images\virtualPet.png" alt="Virtual Pet code" class="projects__column_image"></a>
+                </figure>
+                <p>Adopt a chinchilla from South America. You can name it, feed it, give it water, play with it, bathe it, and let it use the restroom. When you interact with your chinchilla, you'll see some needs go up, while others will go down. On a scale from 0-10, your chinchilla will be happiest when their needs are at 10 and upset when their needs are at 0. Can you get all their needs to 10? Have fun!</p>
+                <p>Skills: Java</p>
+                <p>Tech Used: IntelliJ</p>
+            </article>
+            <article class="projects__column">
+                <h3 class="projects__column_title">Virtual Pet Shelter</h3>
+                <figure class="projects__column_figure">
+                    <a href="https://github.com/2021-Spring-Part-Time/virtual-pet-shelter-danielleboz" target="_blank"><img src="images\virtualPetShelter.png" alt="Virtual Pet Shelter code" class="projects__column_image"></a>
+                </figure>
+                <p>Welcome to the year 2356, where humans no longer work and every job is held by a robot. Pet shelters are no different and are run by robots. You must interact with our Pet Shelter's robot in order to play, feed, and give water to our shelter pets. You can also adopt a pet or admit a homeless pet. Each of our animals has a hunger, thirst and boredom meter (it is the future after all). Their meter is full when it reaches 100, and the pet is least happy when their needs are close to 0. Please help keep out shelter pets happy human!</p>
+                <p>Skills: Java</p>
+                <p>Tech Used: IntelliJ</p>
+            </article>
+            <article class="projects__column">
+                <h3 class="projects__column_title">Virtual Pets Amok</h3>
+                <figure class="projects__column_figure">
+                    <a href="https://github.com/2021-Spring-Part-Time/virtual-pets-amok-danielleboz" target="_blank"><img src="images\virtualPetsAmok.png" alt="Virtual Pets Amok code" class="projects__column_image"></a>
+                </figure>
+                <p>Welcome to the year 2356, where humans no longer work and every job is held by a robot. Pet shelters are no different and are run by robots. You must interact with our Pet Shelter's robot in order to play, feed, and give water to our shelter pets. You can also adopt a pet or admit a homeless pet. Each of our animals have several needs and all are measureable (it is the future after all). Please help keep out shelter pets happy human!</p>
+                <p>Skills: Java</p>
+                <p>Tech Used: IntelliJ</p>
+            </article>
+        </section>
+        <footer class="footer">
+            <small class="footer__copyright">&copy Danielle Bosworth 2021</small>
+            <section class="footer__social">
+                <a href="https://www.linkedin.com/in/danielle-bosworth-599b6a2a" target="_blank"><img src="images\linkedin.png" alt="LinkedIn Icon" class="footer__social_linkedin"></a>
+                <a href="https://github.com/danielleboz" target="_blank"><img src="images\github.png" alt="GitHub Icon" class="footer__social_github"></a>
+            </section>
+        </footer>
+    </div>    
 </body>
 </html>
