@@ -135,14 +135,14 @@ p {
 }
 
 .profile__section {
-    display: flex;
     align-items: center;
+    display: flex;
     flex-direction: column;
 }
 
 .projects__section {
-    display: flex;
     align-items: center;
+    display: flex;
     flex-direction: column;
 }
 
